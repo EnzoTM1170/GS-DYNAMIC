@@ -36,3 +36,28 @@ O **Firewatch** é um sistema integrado de detecção, alerta e combate a queima
 
 ## 📂 Estrutura do Projeto
 
+├── firewatch/
+│ ├── sensors.py # Modelos de sensoriamento e fila de coleta
+│ ├── alerts.py # Priorização e gerenciamento de alertas (heap)
+│ ├── drones.py # Lógica de voo e pilha de ações
+│ ├── zones.py # Árvores de zonas de monitoramento
+│ ├── routing.py # Grafos e algoritmo de rota ótima
+│ └── main.py # Ponto de entrada e loop de simulação
+├── tests/ # Testes unitários das estruturas de dados
+├── requirements.txt # Dependências do Python
+└── README.md # Este arquivo
+
+## ⚙️ Requisitos e Instalação
+
+1. **Pré-requisitos**  
+   - Python 3.8+  
+   - pip  
+
+2. **Instalação**  
+   ```bash
+   git clone https://github.com/seu-usuario/firewatch.git
+   cd firewatch
+   pip install -r requirements.txt
+
+ ##🎬 Como Executar
+python main.py
