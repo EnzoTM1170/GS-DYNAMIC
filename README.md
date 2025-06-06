@@ -35,7 +35,7 @@ O **Firewatch** é um sistema integrado de detecção, alerta e combate a queima
 ---
 
 ## 📂 Estrutura do Projeto
-
+```
 ├── firewatch/
 │ ├── sensors.py # Modelos de sensoriamento e fila de coleta
 │ ├── alerts.py # Priorização e gerenciamento de alertas (heap)
@@ -46,6 +46,7 @@ O **Firewatch** é um sistema integrado de detecção, alerta e combate a queima
 ├── tests/ # Testes unitários das estruturas de dados
 ├── requirements.txt # Dependências do Python
 └── README.md # Este arquivo
+```
 
 ## ⚙️ Requisitos e Instalação
 
