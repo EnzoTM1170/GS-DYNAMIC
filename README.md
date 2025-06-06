@@ -1,4 +1,4 @@
-# GS-DYNAMIC 
+# GS-DYNAMIC
 
 ## Firewatch – Sistema Inteligente de Combate a Queimadas Florestais
 
@@ -19,6 +19,15 @@ O **Firewatch** é um sistema integrado de detecção, alerta e combate a queima
 - Gerenciar dinamicamente sensores com lista ligada (linked list).  
 - Organizar zonas de monitoramento em árvore binária.  
 - Otimizar rotas de drones usando grafos e algoritmo de Dijkstra.  
+
+Além disso, contamos com uma **plataforma web/app** onde qualquer cidadão pode:
+
+- **Registrar denúncias** de focos de incêndio, enviando foto, descrição e geolocalização automática.  
+- **Enviar alertas** diretamente às autoridades competentes (Corpo de Bombeiros e Defesa Civil), garantindo resposta oficial imediata.  
+- **Visualizar mapas interativos** com todos os alertas e a posição em tempo real dos drones em missão.  
+- **Mobilizar nossos drones** de forma automática: ao receber um alerta de usuário ou sensor ultrapassar o limiar crítico, o sistema despacha o drone mais próximo para mapear a área, coletar dados térmicos e iniciar a aplicação de agente extintor.  
+
+Esse fluxo colaborativo entre comunidade, sensores e drones reduz drasticamente o tempo de resposta, melhora a precisão na localização dos focos e amplia a cobertura de vigilância em regiões de alto risco.
 
 ---
 
